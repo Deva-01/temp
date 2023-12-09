@@ -70,6 +70,8 @@ span.psw {
 
 <h2>Login Form</h2>
 
+<h1>{{ a }}</h1>
+
 <form action="/action_page.php" method="post">
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -93,6 +95,8 @@ span.psw {
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
+
+<a href="{% url 'page' %}">Page 1</a>
 
 </body>
 </html>
