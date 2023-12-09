@@ -5,4 +5,4 @@ def page(request):
 
 def pages(request):
     a = "hema"
-    return render(request,'s.html', {a:a})
+    return render(request,'s.html', {'a':a})
